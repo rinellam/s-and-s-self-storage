@@ -9,48 +9,60 @@
     </head>
     <body>
         <div id="container">
-        <header class="contact-header">
+
+        <header>
             <h1 class="logo-header">S & S Self Storage</h2>
-            <div class="contact-header">
-                <p class="header-copy-text">Phone: 830-895-3337 | Email: info@sandsselfstorage.com</p>
-            </div>
+            <p class="header-text">(830) 895-3337 | <a href="mailto:info@sandsselfstorage.com">info@sandsselfstorage.com</a></p>
         </header>
+
         <section class="banner-prices">
             <h2 class="lead-text">Lowest Prices in Kerrville!</h2>
         </section>
         <main>
-            <section class="content-section-">
-            <div class="banner-image"></div>
-            <h3 class="title-text">Welcome to S & S Self Storage</h3>
-            <p class="body-text">Our storage facility has been family owned and operated since 1979 serving Kerrville and the surrounding areas.<br>
-            We offer units in a variety of sizes to fit your storage needs, and our lighted facility is fenced and secure.</p>
+            <section class="banner-img">
+
+            <div class="banner-copy">
+                <h3 class="title-text">Welcome to S & S Self Storage</h3>
+                <p class="lead-text">Our storage facility has been family owned and operated since 1979 serving Kerrville and the surrounding areas.</p>
+                <br/>
+                <p class="lead-text">We offer units in a variety of sizes to fit your storage needs, and our lighted facility is fenced and secure.</p>
+                <br/>
+                <ul class="ul-lead-text">
+                    <li>Kerrville Chamber of Commerce member since 1990</li>
+                    <li>Office Hours M-F 8 a.m - 5 p.m.</li>
+                    <li>After hours & weekends available by appointment</li>
+                    <li>7 day a week accessibility to your storage unit</li>
+                    <li>Pest Control</li>
+                </ul>
+            </div>
+
             </section>
-            <section class="section-units">
-                <p>unit graphics here</p>
+
+            <section class="map-product-information">
+                <div class="location-map">
+                    <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=S+%26+S+Self+Storage+Kerrville&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=44.60973,70.224609&amp;vpsrc=0&amp;ie=UTF8&amp;hq=S+%26+S+Self+Storage&amp;hnear=Kerrville,+Kerr,+Texas&amp;t=m&amp;ll=30.068203,-99.184914&amp;spn=0.044568,0.051498&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe><br /><small>
+                </div>
             </section>
         </main>
         <footer>
-            <div class="contact-footer">
-                <p class="footer-text">S & S Self Storage<br/>
-                    1811 Junction Hwy., Kerrville, TX 78028<br/>
-                    Phone: 830-895-3337<br/>
-                    Email: info@sandsselfstorage.com<br/>
-                    Office Hours: M-F 8a.m - 5p.m.</p>
-            </div>
-            <div class="map-google">
-                <p>iframe for map goes here</p>
-            </div>
-            <div class="copyright-date">
-                <p class="footer-text"></p>S & S Self Storage ©&nbsp;</p>
-                <p id="auto-date"></p>
+            <div class="footer-contain">
+                    <p class="footer-text">S & S Self Storage<br/>
+                        1811 Junction Hwy., Kerrville, TX 78028<br/>
+                        Phone: 830-895-3337<br/>
+                        Email: <a href="mailto:info@sandsselfstorage.com">info@sandsselfstorage.com</a><br/>
+                        Office Hours: M-F 8 a.m - 5 p.m.</p>
+                        <div class="footer-date-contain">
+                            <p class="footer-text-logo">S & S Self Storage ©&nbsp;</p>
+                            <p id="auto-date"></p>
+                        </div>
             </div>
         </footer>
-        </div>
+        <script>
+            //date for tagline in footer
+          let d = new Date();
+          let n = d.getFullYear();
+          document.getElementById("auto-date").innerHTML = n;
+        </script>
     </body>
-    <script>
-        //date for tagline in footer
-      let d = new Date();
-      let n = d.getFullYear();
-      document.getElementById("auto-date").innerHTML = n;
-    </script>
+    
 </html>
