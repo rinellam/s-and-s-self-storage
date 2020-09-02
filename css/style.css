@@ -430,6 +430,10 @@ footer {
             background-position-y: 0%;
     }
 
+    .banner-copy {
+        top: 10%;
+    }
+
     header { 
         width: 90%;
         margin: 0 auto;
